@@ -145,7 +145,7 @@ Because Wellness AI is built using pure vanilla web standards, you can run it wi
 
 ## 🏆 Project Credits
 
-- **Author / Developer:** Aaditya ([@neodyit](https://github.com/neodyit))
+- **Author / Developer:** Aditya Ojha 
 - **Event:** National Children's Science Congress (NCSC) 2026
 - **Category:** Junior Science & Technology Laboratory / Health Informatics
 
