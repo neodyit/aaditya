@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" fill="none">
+    <defs>
+        <radialGradient id="treeGrad" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#E9F5EE"/>
+            <stop offset="100%" stop-color="#F7F4EE" stop-opacity="0"/>
+        </radialGradient>
+    </defs>
+    <!-- Organic Ambient Blob -->
+    <path d="M40 50 C20 90, 30 130, 80 140 C140 150, 170 120, 175 70 C180 20, 140 10, 90 20 C50 30, 50 30, 40 50 Z" fill="url(#treeGrad)"/>
+
+    <!-- Ground baseline -->
+    <ellipse cx="100" cy="142" rx="55" ry="6" fill="#DDD4C4"/>
+
+    <!-- Specimen Planter / Pot -->
+    <polygon points="78,122 122,122 116,142 84,142" fill="#FAF7F2" stroke="#2B2623" stroke-width="2"/>
+    <line x1="75" y1="122" x2="125" y2="122" stroke="#2B2623" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Trunk & Stem -->
+    <path d="M100 120 Q99 90 100 65" stroke="#1E5E41" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+    <path d="M100 95 Q85 85 78 78" stroke="#1E5E41" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <path d="M100 85 Q115 75 122 70" stroke="#1E5E41" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+
+    <!-- Foliage Nodes / Specimen Leaves -->
+    <path d="M78 78 C70 65, 85 60, 92 74 C90 85, 80 85, 78 78 Z" fill="#2E845E" stroke="#14442E" stroke-width="1.5"/>
+    <path d="M122 70 C132 60, 128 50, 115 62 C115 70, 120 72, 122 70 Z" fill="#2E845E" stroke="#14442E" stroke-width="1.5"/>
+    <circle cx="100" cy="55" r="14" fill="#E9F5EE" stroke="#1E5E41" stroke-width="2"/>
+    <circle cx="100" cy="55" r="7" fill="#1E5E41"/>
+
+    <!-- Specimen Energy Sparkles -->
+    <path d="M135 40 L138 30 L141 40 L151 43 L141 46 L138 56 L135 46 L125 43 Z" fill="#B47214" opacity="0.8"/>
+    <circle cx="68" cy="48" r="3" fill="#B47214" opacity="0.7"/>
+</svg>

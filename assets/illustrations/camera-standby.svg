@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" fill="none">
+    <defs>
+        <radialGradient id="camGlow" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#E9F5EE" stop-opacity="0.9"/>
+            <stop offset="100%" stop-color="#FAF7F2" stop-opacity="0.1"/>
+        </radialGradient>
+    </defs>
+    <!-- Organic Soft Blob -->
+    <path d="M50 40 C10 80, 20 140, 70 160 C130 180, 200 150, 210 100 C220 50, 180 20, 120 20 C80 20, 70 20, 50 40 Z" fill="url(#camGlow)"/>
+    <circle cx="190" cy="50" r="8" fill="#B47214" opacity="0.3"/>
+    <circle cx="50" cy="130" r="6" fill="#1E5E41" opacity="0.2"/>
+
+    <!-- Modern Sensor / Optical Stand -->
+    <ellipse cx="120" cy="148" rx="42" ry="7" fill="#E2DACD"/>
+    <rect x="117" y="105" width="6" height="42" rx="2" fill="#847A70"/>
+    
+    <!-- Camera Body -->
+    <rect x="85" y="70" width="70" height="38" rx="8" fill="#FFFFFF" stroke="#1E5E41" stroke-width="2.5"/>
+    <rect x="100" y="64" width="20" height="6" rx="2" fill="#1E5E41"/>
+    
+    <!-- Camera Lens and rings -->
+    <circle cx="120" cy="89" r="14" fill="#E9F5EE" stroke="#1E5E41" stroke-width="2"/>
+    <circle cx="120" cy="89" r="7" fill="#1E5E41"/>
+    <circle cx="123" cy="86" r="2.5" fill="#FFFFFF"/>
+
+    <!-- Optical Sensor Flash / Indicator -->
+    <circle cx="144" cy="79" r="3" fill="#B47214"/>
+</svg>
